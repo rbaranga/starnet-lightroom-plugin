@@ -1,0 +1,45 @@
+s = {
+	id = "894A4551-275A-4C47-AC5C-E18C6231E116",
+	internalName = "Remove stars",
+	title = "Remove stars",
+	type = "Export",
+	value = {
+		exportServiceProvider = "org.rbaranga.lrplugin.starnet",
+		exportServiceProviderTitle = "Starnet",
+		export_bitDepth = 16,
+		export_colorSpace = "ProPhotoRGB",
+		export_photoSectionsEnabled = true,
+		export_useParentFolder = false,
+		export_videoFileHandling = "exclude",
+		export_videoFormat = "4e49434b-4832-3634-fbfb-fbfbfbfbfbfb",
+		export_videoPreset = "original",
+		extensionCase = "lowercase",
+		format = "TIFF",
+		jpeg_limitSize = 100,
+		jpeg_useLimitSize = false,
+		renamingTokensOn = false,
+		selectedTextFontFamily = "Myriad Web Pro",
+		selectedTextFontSize = 12,
+		size_percentage = 100,
+		tiff_compressionMethod = "compressionMethod_None",
+		tiff_preserveTransparency = false,
+		tokens = "{{image_name}}",
+		tokensArchivedToString2 = {
+			{
+				menu = {
+					{
+						title = "Filename",
+						value = "image_name",
+					},
+					{
+						title = "Filename number suffix",
+						value = "image_filename_number_suffix",
+					},
+				},
+				title = "Filename",
+				value = "image_name",
+			},
+		},
+	},
+	version = 0,
+}

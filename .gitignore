@@ -39,3 +39,9 @@ luac.out
 *.x86_64
 *.hex
 
+.vscode
+
+*.log
+*.err
+Starnet.lrplugin/starnet
+.DS_Store
